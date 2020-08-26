@@ -1,3 +1,9 @@
+This repository contains code from:
+
+Incorporation of DNA methylation into eQTL mapping in African Americans
+Anmol Singh, Yizhen Zhong, Layan Nahlawi, C. Sehwan Park, Tanima De, Cristina Alarcon, Minoli A. Perera
+bioRxiv 2020.08.05.238030; doi: https://doi.org/10.1101/2020.08.05.238030
+
 Instructions:
 - Import dosage and genotype information into MatrixeQTL as the program describes and replace the gene file positions with CpG site information (for gene expression put in methylation values for CpG sites and for gene position put in CpG site position). Change the cis distance to 2.5E3 to measure CpG sites within a 2.5kB window of a SNP, you can change this depending on what window size you are using.
 - Use the check_2.5kB.R program to eliminate all CpG sites that are not in the 2.5kB window as matrixeQTL gives some sites that are a little bit outside of the window
